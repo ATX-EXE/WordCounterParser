@@ -1,4 +1,4 @@
-package local.nefedov.comLineParser;
+package local.nefedov;
 
 public class SimpleParser extends ComLineParserBase {
     private String inFile, outFile;

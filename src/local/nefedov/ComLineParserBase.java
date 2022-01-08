@@ -3,15 +3,15 @@
  * @autor Nefedov Ivan
  * @version 0.2.0
  */
-package local.nefedov.comLineParser;
+package local.nefedov;
 
 public abstract class ComLineParserBase {
     /** Field keys */
     String[] keys;
     /** Field delimeters */
     String[] delimeters;
-
-    public enum switchStatus {NoError, Error, ShowUsage};
+    /** enum switchStatus{NoError, Error, ShowUsage} */
+    public enum switchStatus {NoError, Error, ShowUsage}
 
     /**
      * Additional constructor

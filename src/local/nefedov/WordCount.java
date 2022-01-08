@@ -1,4 +1,4 @@
-package local.nefedov.comLineParser;
+package local.nefedov;
 
 import java.io.*;
 import java.util.*;
