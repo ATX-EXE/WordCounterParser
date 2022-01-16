@@ -138,7 +138,7 @@ public class WordCount {
         TreeMap<String, Integer> sortedwords = new TreeMap<String, Integer>(words);
 
         if (!sortedwords.isEmpty()) {
-            sortedwords.forEach((k, v) -> {
+            sortedwords.forEach((String k, Integer v) -> {
                 result.append(k.toString()).append(": ").append(v.toString()).append("\n");
             });
             return result.toString();
